@@ -17,9 +17,6 @@ I don't know if this is a conspiracy or fake news. Btw my friend Michele(@doppia
 
 Vito(@m-otiv) viri soccu poi fare, rape na issue (open an issue) for the next arguments.
 
-As a caveat - this is a living doc, and will evolve as priorities grow and shift. The *vito-learn-react project* will always be adapting to new vito studies.
-
-
 ### 2. Roman's question - How to submit a form data using fetch method & post
 
 ```js
@@ -30,7 +27,7 @@ const data = {
 };
 
 formData.forEach((value, key) => {
-        data[key] = value;
+    data[key] = value;
 });
 
 fetch('https://jsonplaceholder.typicode.com/posts', {
@@ -40,4 +37,7 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 .then(response => response.json())
 .then(json => console.log(json))
 ```
-[example](form-data/forma-data.md)
+
+[example](form-data/form-data.md)
+
+As a caveat - this is a living doc, and will evolve as priorities grow and shift. The *vito-learn-react project* will always be adapting to new vito studies.
