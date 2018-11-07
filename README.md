@@ -41,3 +41,30 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 [example](form-data/form-data.md)
 
 As a caveat - this is a living doc, and will evolve as priorities grow and shift. The *vito-learn-react project* will always be adapting to new vito studies.
+
+
+## Getting Started
+
+### Requirements
+
+![Docker >= 17.04 ](https://badgen.net/badge/Docker/>=17.04/409be6?icon=docker)
+
+![docker-compose >=1.8.0 ](https://badgen.net/badge/docker-compose/>=1.8/409be6?icon=docker)
+
+### Usage
+
+#### First run
+
+Builds images.
+```bash
+docker-compose build
+```
+
+#### Run
+
+Launches web server
+```bash
+docker-compose up
+```
+
+`open http://localhost` Once the server is up, the root page can be seen on your local machine
